@@ -9,9 +9,9 @@ from langchain import OpenAI
 pinecone.init("4f028635-3471-4227-9e8b-d3b876dbfa37",environment="asia-southeast1-gcp-free") 
 
 def run_llm(query):
-    embeddings = OpenAIEmbeddings(openai_api_key='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')
+    embeddings = OpenAIEmbeddings(openai_api_key='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')
     docsearch = Pinecone.from_existing_index(index_name='bible-chat',embedding=embeddings) 
-    chat= ChatOpenAI(openai_api_key='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',verbose=True,temperature=0)
+    chat= ChatOpenAI(openai_api_key='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',verbose=True,temperature=0)
     qa = RetrievalQA.from_llm(llm=chat,retriever=docsearch.as_retriever())
     return qa({'query':query})   
 
