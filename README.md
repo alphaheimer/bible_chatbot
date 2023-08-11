@@ -1,6 +1,6 @@
 # bible_chatbot
 
-BIBLE CHATBOT 
+                                       BIBLE CHATBOT 
 
 
 My AI product addresses the need for accurate and accessible information about the Holy Bible. Many people, including scholars, believers, and curious individuals, may have questions about its content, a chatbot focused on the Bible that can provide accurate and accessible information can help people quickly find answers to their inquiries.
