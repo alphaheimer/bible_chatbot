@@ -20,12 +20,8 @@ I have chosen ChatGPT 3.5 for my bible chatbot. Choosing ChatGPT 3.5 for a Langu
 
 
 
-
-
-
-
-
 3.	Product Design
+
 
 My AI product is a Bible chatbot that utilizes Pinecone for query processing and ChatGPT 3.5 for generating responses.
 
@@ -57,6 +53,8 @@ My AI chatbot follows these steps:
 •	User queries are sent to Pinecone for indexing
 •	retrieved data is used to prompt ChatGPT 3.5
 •	the model generates responses based on the queries.
+
+<img width="468" alt="image" src="https://github.com/alphaheimer/bible_chatbot/assets/134822224/8f467370-a6ec-493d-9e9d-36f08a4750cb">
 
  
 
